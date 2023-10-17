@@ -1,0 +1,25 @@
+.foot-icon {
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+}
+
+.foot-icon:hover {
+    background-color: #FF1616;
+    color: #fff;
+}
+
+.footer-row,
+.footer-link {
+    color: #2a3d53b2;
+    transition: .3s ease-in-out;
+}
+
+.footer-link:hover {
+    text-decoration: underline !important;
+}
+.blue-row{
+    background-image: url(../assets/img/blue-bg.jpg);
+}
+.blue-col{
+    max-width: 50% !important;
+}

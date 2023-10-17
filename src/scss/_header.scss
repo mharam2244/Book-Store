@@ -1,0 +1,31 @@
+.search-input {
+    box-shadow: none !important;
+    border-color: initial !important;
+}
+
+.custom-button {
+    color: white;
+    background: #FF1616;
+    background: linear-gradient(to left, #FF1616 50%, #b41818 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
+}
+
+.custom-button:hover {
+    background-position: left;
+}
+
+.link {
+    color: #000;
+}
+
+.link:hover {
+    color: #FF1616;
+}
+
+.drop-link:hover {
+    transition: .1s ease-in-out;
+    font-size: large;
+    color: #FF1616 !important;
+}
+

@@ -1,0 +1,31 @@
+.categories-row{
+    background-image: url(../assets/img/h2_hero1.jpg);
+    padding: 140px;
+}
+.categories-dropdown{
+    option:hover{
+        background-color: rgb(67, 68, 68) !important;
+    }
+}
+.up-btn{
+    color: white;
+    background: #FF1616;
+    background: linear-gradient( #FF1616 50%, #a75858 50%) ;
+    background-size: auto -200%;
+    position: relative;
+    transition: .3s ease-out;
+}
+.up-btn:hover{
+    background-position: top;
+}
+// .custom-button {
+//     color: white;
+//     background: #FF1616;
+//     background: linear-gradient(to left, #FF1616 50%, #b41818 50%) right;
+//     background-size: 200%;
+//     transition: .3s ease-out;
+// }
+
+// .custom-button:hover {
+//     background-position: left;
+// }

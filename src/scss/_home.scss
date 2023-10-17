@@ -1,0 +1,93 @@
+@keyframes fadeInH1 {
+    from {
+        padding: 30%;
+        opacity: 0;
+    }
+
+    to {
+        padding: 0%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInSpan {
+    from {
+        padding: 20%;
+        opacity: 0;
+    }
+
+    to {
+        padding: 0%;
+        opacity: 1;
+    }
+}
+
+.animation {
+    animation-duration: 1s;
+    animation-name: fadeIn;
+}
+
+.img-col {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.div-1,
+.div-2,
+.div-3 {
+    position: relative;
+    text-align: center;
+}
+
+.btn-div {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+    h1 {
+        animation-name: fadeInH1;
+        font-size: 80px;
+        animation-duration: 1s;
+    }
+
+    span {
+        animation-name: fadeInSpan;
+        animation-duration: 1s;
+    }
+}
+
+.btn-1,
+.btn-2,
+.btn-3 {
+    outline: #fff solid 3px;
+    outline-offset: 6px;
+}
+
+.ls-2:hover {
+    transition: .3s ease-in-out;
+    letter-spacing: 2px;
+}
+
+.ar-btn:active {
+    background-color: #FF1616;
+    color: #fff;
+}
+.w-30{
+    width: 30%;
+}
+.bg-img-col1{
+    background-image: url(../assets/img/img4.jpg);
+}
+.bg-img-col2{
+    background-image: url(../assets/img/img5.jpg);
+}

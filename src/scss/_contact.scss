@@ -1,0 +1,22 @@
+.contact-bg {
+    background-image: url(../assets/img/contact.jpg);
+    padding: 145px 0px !important;
+}
+
+.text-area {
+    resize: none;
+}
+
+.text-area:active {
+    border: none !important;
+}
+
+.contact-input {
+    box-shadow: none !important;
+    border-color: initial !important;
+}
+.send-btn:hover{
+    background-color: #FF1616 !important;
+    color: #fff !important;
+    transition: .3s ease-in-out;
+}

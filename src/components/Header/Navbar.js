@@ -22,7 +22,7 @@ export default function navbar() {
           <Link to={"/"} className='text-decoration-none link' >FAQ</Link>
           <Link to={"/"} className='text-decoration-none link' >Track Order</Link>
           <Link to={"/"} className='text-decoration-none link' ><i class="fa-solid fa-cart-shopping fs-3"></i></Link>
-          <Link to={"/"} className='text-decoration-none ' >
+          <Link to={"auth/login"} className='text-decoration-none ' >
             <button className='border-0 rounded-5 px-4 py-3 custom-button '>Sign in</button>
           </Link>
         </div>
